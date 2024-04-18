@@ -6,5 +6,7 @@ var _move = key_right - key_left;
 hsp = _move * walksp;
 x=x+ hsp;
 
+vsp = vsp + grv;
+y=y+vsp;
 
 
