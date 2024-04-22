@@ -6,6 +6,11 @@ var _move = key_right - key_left;
 hsp = _move * walksp;
 vsp = vsp + grv;
 
+if (place_meeting(x,y+1,obj_invisiblewall)) and (key_jump)
+{
+	vsp = -jumpsp
+}
+
 if (place_meeting(x+hsp,y,obj_invisiblewall))
 {
 	while (!place_meeting(x+sign(hsp),y,obj_invisiblewall))
