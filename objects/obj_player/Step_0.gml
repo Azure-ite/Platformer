@@ -32,3 +32,22 @@ if (place_meeting(x,y+vsp,obj_invisiblewall))
 }
 y = y + vsp;
 
+if (!place_meeting(x,y+1,obj_invisiblewall))
+{
+sprite_index = spr_playera;
+image_speed = 0;
+	if (vsp > 0) image_index = 1; else image_index = 0;
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+	}
+	else
+	{
+		sprite_index = spr_playerr
+	}	
+}
+	if (hsp !=0) image_xscale = sign(hsp);
