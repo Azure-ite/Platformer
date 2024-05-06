@@ -4,7 +4,7 @@
 * The environment was set up using GMS version 2022.9.1.51. 
 * I take no credit for the assets or the concepts.
 
-***Features***
+***Features***:
 * Basic platformer mechanics
 * Double jump mechanic
 * Custom player sprites and animations
